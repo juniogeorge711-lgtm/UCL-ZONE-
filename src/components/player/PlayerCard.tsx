@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Player } from '../../types';
+import { PlayerAvatar } from './PlayerAvatar';
 
 interface PlayerCardProps {
   player: Player;
@@ -8,13 +9,6 @@ interface PlayerCardProps {
 
 export const PlayerCard: React.FC<PlayerCardProps> = ({ player }) => {
   const navigate = useNavigate();
-
-  // Get initials for avatar
-  const initials = player.name
-    .split(' ')
-    .map((n) => n[0])
-    .join('')
-    .slice(0, 2);
 
   return (
     <article
@@ -31,11 +25,9 @@ export const PlayerCard: React.FC<PlayerCardProps> = ({ player }) => {
       className="group relative rounded-xl bg-[#0E1633] border border-[#26346B]/60 p-4 transition-all duration-200 hover:border-[#3D7BFF]/70 hover:bg-[#16214A]/80 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#3D7BFF] flex flex-col justify-between"
     >
       <div>
-        {/* Top header: Initials avatar + Shirt number & Position */}
+        {/* Top header: Real face avatar + Shirt number & Position */}
         <div className="flex items-start justify-between gap-3 mb-3">
-          <div className="w-12 h-12 rounded-xl bg-[#16214A] border border-[#26346B] flex items-center justify-center font-display text-lg font-black text-[#3D7BFF] group-hover:border-[#3D7BFF]/50 transition-colors shadow-inner">
-            {initials}
-          </div>
+          <PlayerAvatar player={player} size="lg" />
           <div className="flex flex-col items-end">
             <span className="font-mono-numbers font-black text-sm text-white">
               #{player.shirtNumber}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Player } from '../../types';
+import { PlayerAvatar } from '../player/PlayerAvatar';
 
 interface SquadTableProps {
   players: Player[];
@@ -48,9 +49,12 @@ export const SquadTable: React.FC<SquadTableProps> = ({ players }) => {
                   {p.shirtNumber}
                 </td>
                 <td className="py-2.5 px-4">
-                  <span className="font-semibold text-white group-hover:text-[#3D7BFF] transition-colors">
-                    {p.name}
-                  </span>
+                  <div className="flex items-center gap-2.5">
+                    <PlayerAvatar player={p} size="sm" />
+                    <span className="font-semibold text-white group-hover:text-[#3D7BFF] transition-colors truncate">
+                      {p.name}
+                    </span>
+                  </div>
                 </td>
                 <td className="py-2.5 px-3">
                   <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-[#16214A] text-[#9AA7D6]">

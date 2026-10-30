@@ -78,6 +78,7 @@ export interface Player {
   nationality: string;
   age: number;
   heightCm: number;
+  photoUrl?: string;
   seasonStats: PlayerStats;
   careerStats: {
     uclAppearances: number;

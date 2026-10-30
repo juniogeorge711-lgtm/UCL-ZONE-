@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { usePlayer, useClub } from '../hooks/useData';
 import { Crest } from '../components/ui/Crest';
+import { PlayerAvatar } from '../components/player/PlayerAvatar';
 import { PlayerAttributesRadar } from '../components/player/PlayerAttributesRadar';
 import { ChartCard } from '../components/charts/ChartCard';
 import { CustomTooltip } from '../components/charts/CustomTooltip';
@@ -79,11 +80,9 @@ export const PlayerDetailPage: React.FC = () => {
         className="relative rounded-3xl bg-gradient-to-r from-[#0E1633] via-[#0E1633] to-[#16214A] border border-[#26346B] p-6 lg:p-10 shadow-xl overflow-hidden"
       >
         <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-6">
-          <div className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-6">
-            {/* Initials avatar badge */}
-            <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl bg-[#16214A] border-2 border-[#3D7BFF]/50 flex items-center justify-center font-display text-4xl sm:text-5xl font-black text-[#3D7BFF] shadow-xl shrink-0">
-              {initials}
-            </div>
+          <div className="flex flex-col sm:flex-row items-center gap-6 text-center sm:text-left">
+            {/* Official face portrait avatar badge */}
+            <PlayerAvatar player={player} size="2xl" className="border-2 border-[#3D7BFF]/50 shadow-xl" />
 
             <div className="space-y-2">
               <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2 text-xs text-[#9AA7D6]">

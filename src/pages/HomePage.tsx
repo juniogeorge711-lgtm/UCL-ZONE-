@@ -12,6 +12,7 @@ import { ClubTile } from '../components/club/ClubTile';
 import { PlayerCard } from '../components/player/PlayerCard';
 import { ArticleCard } from '../components/news/ArticleCard';
 import { Crest } from '../components/ui/Crest';
+import { PlayerAvatar } from '../components/player/PlayerAvatar';
 import { Skeleton } from '../components/ui/Skeleton';
 import { getTimeRemaining } from '../lib/timezone';
 import { ArrowRight, Trophy, ShieldAlert, Flame, Target, Calendar } from 'lucide-react';
@@ -225,16 +226,22 @@ export const HomePage: React.FC = () => {
                 <span className="text-[11px] font-bold uppercase tracking-wider">Top Scorer</span>
                 <Flame className="w-4 h-4" />
               </div>
-              <div>
-                <span className="font-display text-3xl font-black text-white font-mono-numbers">
-                  {highlights.topScorer.goals}
-                </span>
-                <p className="text-xs font-bold text-[#EEF2FF] mt-1 truncate">
-                  {highlights.topScorer.player.name}
-                </p>
-                <p className="text-[11px] text-[#9AA7D6] truncate">
-                  {highlights.topScorer.club.shortName}
-                </p>
+              <div className="flex items-center gap-3">
+                <PlayerAvatar player={highlights.topScorer.player} size="lg" />
+                <div className="min-w-0">
+                  <div className="flex items-baseline gap-1.5">
+                    <span className="font-display text-3xl font-black text-white font-mono-numbers leading-none">
+                      {highlights.topScorer.goals}
+                    </span>
+                    <span className="text-[11px] text-[#9AA7D6] uppercase tracking-wider font-semibold">goals</span>
+                  </div>
+                  <p className="text-xs font-bold text-[#EEF2FF] mt-1 truncate">
+                    {highlights.topScorer.player.name}
+                  </p>
+                  <p className="text-[11px] text-[#9AA7D6] truncate">
+                    {highlights.topScorer.club.shortName}
+                  </p>
+                </div>
               </div>
             </div>
 

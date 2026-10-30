@@ -2,6 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useLeaders, useClubs, usePlayers } from '../hooks/useData';
 import { PlayerPosition } from '../types';
+import { PlayerAvatar } from '../components/player/PlayerAvatar';
 import { PlayerAttributesRadar } from '../components/player/PlayerAttributesRadar';
 import { StatBar } from '../components/match/StatBar';
 import { Crest } from '../components/ui/Crest';
@@ -181,9 +182,7 @@ export const PlayersPage: React.FC = () => {
                     </td>
                     <td className="py-3 px-4">
                       <div className="flex items-center gap-3">
-                        <div className="w-8 h-8 rounded-full bg-[#16214A] border border-[#26346B] flex items-center justify-center font-display text-xs font-bold text-[#3D7BFF] shrink-0">
-                          {item.player.name.slice(0, 2).toUpperCase()}
-                        </div>
+                        <PlayerAvatar player={item.player} size="sm" />
                         <div>
                           <span className="font-semibold text-white group-hover:text-[#3D7BFF] transition-colors block">
                             {item.player.name}
@@ -266,38 +265,44 @@ export const PlayersPage: React.FC = () => {
 
             {/* Selectors for 2 players */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div>
-                <label className="block text-xs font-bold text-[#3D7BFF] mb-1">
-                  Player A (Blue)
-                </label>
-                <select
-                  value={compareIds[0]}
-                  onChange={(e) => setCompareIds([e.target.value, compareIds[1]])}
-                  className="w-full bg-[#16214A] border border-[#26346B] rounded-lg p-2 text-xs text-white focus:outline-none focus:border-[#3D7BFF]"
-                >
-                  {allPlayers?.map((p) => (
-                    <option key={p.id} value={p.id}>
-                      {p.name} ({p.clubName} - {p.position})
-                    </option>
-                  ))}
-                </select>
+              <div className="flex items-center gap-3 bg-[#16214A]/40 p-3 rounded-xl border border-[#26346B]/50">
+                <PlayerAvatar player={playerA} size="lg" />
+                <div className="flex-1 min-w-0">
+                  <label className="block text-xs font-bold text-[#3D7BFF] mb-1">
+                    Player A (Blue)
+                  </label>
+                  <select
+                    value={compareIds[0]}
+                    onChange={(e) => setCompareIds([e.target.value, compareIds[1]])}
+                    className="w-full bg-[#16214A] border border-[#26346B] rounded-lg p-2 text-xs text-white focus:outline-none focus:border-[#3D7BFF]"
+                  >
+                    {allPlayers?.map((p) => (
+                      <option key={p.id} value={p.id}>
+                        {p.name} ({p.clubName} - {p.position})
+                      </option>
+                    ))}
+                  </select>
+                </div>
               </div>
 
-              <div>
-                <label className="block text-xs font-bold text-[#F0BE4D] mb-1">
-                  Player B (Gold)
-                </label>
-                <select
-                  value={compareIds[1]}
-                  onChange={(e) => setCompareIds([compareIds[0], e.target.value])}
-                  className="w-full bg-[#16214A] border border-[#26346B] rounded-lg p-2 text-xs text-white focus:outline-none focus:border-[#F0BE4D]"
-                >
-                  {allPlayers?.map((p) => (
-                    <option key={p.id} value={p.id}>
-                      {p.name} ({p.clubName} - {p.position})
-                    </option>
-                  ))}
-                </select>
+              <div className="flex items-center gap-3 bg-[#16214A]/40 p-3 rounded-xl border border-[#26346B]/50">
+                <PlayerAvatar player={playerB} size="lg" />
+                <div className="flex-1 min-w-0">
+                  <label className="block text-xs font-bold text-[#F0BE4D] mb-1">
+                    Player B (Gold)
+                  </label>
+                  <select
+                    value={compareIds[1]}
+                    onChange={(e) => setCompareIds([compareIds[0], e.target.value])}
+                    className="w-full bg-[#16214A] border border-[#26346B] rounded-lg p-2 text-xs text-white focus:outline-none focus:border-[#F0BE4D]"
+                  >
+                    {allPlayers?.map((p) => (
+                      <option key={p.id} value={p.id}>
+                        {p.name} ({p.clubName} - {p.position})
+                      </option>
+                    ))}
+                  </select>
+                </div>
               </div>
             </div>
 

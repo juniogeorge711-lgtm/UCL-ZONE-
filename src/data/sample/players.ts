@@ -13,6 +13,7 @@ export const PLAYERS: Player[] = [
     nationality: 'France',
     age: 27,
     heightCm: 178,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/330px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 520,
@@ -58,6 +59,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Brazil',
     age: 26,
     heightCm: 176,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg/330px-Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 512,
@@ -103,6 +105,7 @@ export const PLAYERS: Player[] = [
     nationality: 'England',
     age: 23,
     heightCm: 186,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg/330px-Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 530,
@@ -148,6 +151,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Uruguay',
     age: 28,
     heightCm: 182,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Federico_Valverde_2021_%28cropped%29.jpg/330px-Federico_Valverde_2021_%28cropped%29.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 540,
@@ -193,6 +197,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Belgium',
     age: 34,
     heightCm: 200,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Thibaut_Courtois_Belgium_v_USA_6_July_2026-076_%28cropped%29.jpg/330px-Thibaut_Courtois_Belgium_v_USA_6_July_2026-076_%28cropped%29.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 540,
@@ -239,6 +244,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Germany',
     age: 33,
     heightCm: 190,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Antonio_Rudiger_Ecuador_v_Germany_25_June_2026-002.jpg/330px-Antonio_Rudiger_Ecuador_v_Germany_25_June_2026-002.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 540,
@@ -284,6 +290,7 @@ export const PLAYERS: Player[] = [
     nationality: 'France',
     age: 23,
     heightCm: 182,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Ofrenda_de_la_Liga_y_la_Champions-13-L.Mill%C3%A1n_%2852109790215%29_%28cropped%29.jpg/330px-Ofrenda_de_la_Liga_y_la_Champions-13-L.Mill%C3%A1n_%2852109790215%29_%28cropped%29.jpg',
     seasonStats: {
       appearances: 5,
       minutesPlayed: 410,
@@ -329,6 +336,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Brazil',
     age: 25,
     heightCm: 174,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Rodrygo_2023_%28cropped%29.jpg/330px-Rodrygo_2023_%28cropped%29.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 440,
@@ -374,6 +382,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Brazil',
     age: 28,
     heightCm: 186,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Eder_Militao_2021.jpg/330px-Eder_Militao_2021.jpg',
     seasonStats: {
       appearances: 5,
       minutesPlayed: 450,
@@ -419,6 +428,7 @@ export const PLAYERS: Player[] = [
     nationality: 'France',
     age: 26,
     heightCm: 187,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Aurelien_Tchouameni_France_v_Senegal_16_June_2026-447_%28cropped%29.jpg/330px-Aurelien_Tchouameni_France_v_Senegal_16_June_2026-447_%28cropped%29.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 500,
@@ -464,6 +474,7 @@ export const PLAYERS: Player[] = [
     nationality: 'France',
     age: 31,
     heightCm: 180,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Ofrenda_de_la_Liga_y_la_Champions-49-L.Mill%C3%A1n_%2852109311048%29_%28Ferland_Mendy%29.jpg/330px-Ofrenda_de_la_Liga_y_la_Champions-49-L.Mill%C3%A1n_%2852109311048%29_%28Ferland_Mendy%29.jpg',
     seasonStats: {
       appearances: 5,
       minutesPlayed: 430,
@@ -509,6 +520,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Spain',
     age: 34,
     heightCm: 173,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/UEFA_EURO_qualifiers_Sweden_vs_Spain_20191015_Dani_Carvajal_10_%28cropped%29.jpg/330px-UEFA_EURO_qualifiers_Sweden_vs_Spain_20191015_Dani_Carvajal_10_%28cropped%29.jpg',
     seasonStats: {
       appearances: 4,
       minutesPlayed: 340,
@@ -554,6 +566,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Brazil',
     age: 20,
     heightCm: 173,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Team_Brazil_at_2026_FIFA_World_Cup_by_YantsImages_%28Endrick%29.jpg/330px-Team_Brazil_at_2026_FIFA_World_Cup_by_YantsImages_%28Endrick%29.jpg',
     seasonStats: {
       appearances: 5,
       minutesPlayed: 180,
@@ -597,6 +610,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Croatia',
     age: 41,
     heightCm: 172,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Luka_Modric_Croatia_v_Portugal_2_July_2026-055.jpg/330px-Luka_Modric_Croatia_v_Portugal_2_July_2026-055.jpg',
     seasonStats: {
       appearances: 4,
       minutesPlayed: 190,
@@ -642,6 +656,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Ukraine',
     age: 27,
     heightCm: 191,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Andriy_Lunin%2C_Real_Madrid%2C_2022.jpg/330px-Andriy_Lunin%2C_Real_Madrid%2C_2022.jpg',
     seasonStats: {
       appearances: 1,
       minutesPlayed: 90,
@@ -689,6 +704,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Norway',
     age: 26,
     heightCm: 195,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg/330px-Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 525,
@@ -734,6 +750,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Belgium',
     age: 35,
     heightCm: 181,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_%28cropped%29.jpg/330px-Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_%28cropped%29.jpg',
     seasonStats: {
       appearances: 5,
       minutesPlayed: 395,
@@ -779,6 +796,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Spain',
     age: 30,
     heightCm: 191,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Rodri_Argentina_v_Spain_19_July_2026-187_%28cropped%29.jpg/330px-Rodri_Argentina_v_Spain_19_July_2026-187_%28cropped%29.jpg',
     seasonStats: {
       appearances: 5,
       minutesPlayed: 450,
@@ -824,6 +842,7 @@ export const PLAYERS: Player[] = [
     nationality: 'England',
     age: 26,
     heightCm: 171,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2613%2C_Phil_Foden.jpg/330px-2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2613%2C_Phil_Foden.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 480,
@@ -869,6 +888,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Brazil',
     age: 33,
     heightCm: 188,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Ederson_Brazil_V_Morocco_13_June_2026-14_%28cropped%29.jpg/330px-Ederson_Brazil_V_Morocco_13_June_2026-14_%28cropped%29.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 540,
@@ -915,6 +935,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Portugal',
     age: 29,
     heightCm: 187,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Ruben_Dias_Croatia_v_Portugal_2_July_2026-228_%28cropped%29.jpg/330px-Ruben_Dias_Croatia_v_Portugal_2_July_2026-228_%28cropped%29.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 540,
@@ -962,6 +983,7 @@ export const PLAYERS: Player[] = [
     nationality: 'England',
     age: 33,
     heightCm: 188,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Harry_Kane_England_v_Ghana_23_June_2026-024_%28cropped%29.jpg/330px-Harry_Kane_England_v_Ghana_23_June_2026-024_%28cropped%29.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 535,
@@ -1007,6 +1029,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Germany',
     age: 23,
     heightCm: 184,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Jamal_Musiala_Ecuador_v_Germany_25_June_2026-174_%28cropped%29.jpg/330px-Jamal_Musiala_Ecuador_v_Germany_25_June_2026-174_%28cropped%29.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 490,
@@ -1052,6 +1075,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Germany',
     age: 31,
     heightCm: 177,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Joshua_Kimmich_Ecuador_v_Germany_25_June_2026-149.jpg/330px-Joshua_Kimmich_Ecuador_v_Germany_25_June_2026-149.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 540,
@@ -1097,6 +1121,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Germany',
     age: 40,
     heightCm: 193,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Manuel_Neuer_Ecuador_v_Germany_25_June_2026-148.jpg/330px-Manuel_Neuer_Ecuador_v_Germany_25_June_2026-148.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 540,
@@ -1145,6 +1170,7 @@ export const PLAYERS: Player[] = [
     nationality: 'England',
     age: 25,
     heightCm: 178,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Bukayo_Saka_England_v_Ghana_23_June_2026-057_%28cropped%29.jpg/330px-Bukayo_Saka_England_v_Ghana_23_June_2026-057_%28cropped%29.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 510,
@@ -1189,6 +1215,7 @@ export const PLAYERS: Player[] = [
     nationality: 'France',
     age: 25,
     heightCm: 192,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/William_Saliba_France_v_Paraguay_4_July_2026-183.jpg/330px-William_Saliba_France_v_Paraguay_4_July_2026-183.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 540,
@@ -1233,6 +1260,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Norway',
     age: 27,
     heightCm: 178,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Martin_Odegaard_France_v_Norway_26_June_26-014.jpg/330px-Martin_Odegaard_France_v_Norway_26_June_26-014.jpg',
     seasonStats: {
       appearances: 5,
       minutesPlayed: 445,
@@ -1277,6 +1305,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Spain',
     age: 31,
     heightCm: 183,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/David_Raya_Argentina_v_Spain_19_July_2026-003_%28cropped%29.jpg/330px-David_Raya_Argentina_v_Spain_19_July_2026-003_%28cropped%29.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 540,
@@ -1324,6 +1353,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Spain',
     age: 19,
     heightCm: 180,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Lamine_Yamal_France_v_Spain_7.24.26-142.jpg/330px-Lamine_Yamal_France_v_Spain_7.24.26-142.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 505,
@@ -1368,6 +1398,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Poland',
     age: 38,
     heightCm: 185,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Robert_Lewandowski_NYCFC_v_Chicago_25_July_2026-383.jpg/330px-Robert_Lewandowski_NYCFC_v_Chicago_25_July_2026-383.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 495,
@@ -1413,6 +1444,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Brazil',
     age: 29,
     heightCm: 176,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Raphinha_Brazil_V_Morocco_13_June_2026-133_%28cropped%29.jpg/330px-Raphinha_Brazil_V_Morocco_13_June_2026-133_%28cropped%29.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 520,
@@ -1458,6 +1490,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Spain',
     age: 23,
     heightCm: 174,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Pedri_France_v_Spain_7.24.26-245.jpg/330px-Pedri_France_v_Spain_7.24.26-245.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 510,
@@ -1505,6 +1538,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Egypt',
     age: 34,
     heightCm: 175,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_%28cropped%29.jpg/330px-Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_%28cropped%29.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 530,
@@ -1549,6 +1583,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Netherlands',
     age: 35,
     heightCm: 195,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/20160604_AUT_NED_8876_%28cropped%29.jpg/330px-20160604_AUT_NED_8876_%28cropped%29.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 540,
@@ -1593,6 +1628,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Brazil',
     age: 34,
     heightCm: 193,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Alisson_Becker_Brazil_V_Morocco_13_June_2026-117_%28cropped%29.jpg/330px-Alisson_Becker_Brazil_V_Morocco_13_June_2026-117_%28cropped%29.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 540,
@@ -1640,6 +1676,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Argentina',
     age: 29,
     heightCm: 174,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Lautaro_Martinez_Argentina_v_Spain_19_July_2026-049_%28cropped%29.jpg/330px-Lautaro_Martinez_Argentina_v_Spain_19_July_2026-049_%28cropped%29.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 515,
@@ -1685,6 +1722,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Italy',
     age: 29,
     heightCm: 172,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Nicol%C3%B2_Barella_in_2021_%28cropped_2%29.jpg/330px-Nicol%C3%B2_Barella_in_2021_%28cropped_2%29.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 500,
@@ -1730,6 +1768,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Switzerland',
     age: 37,
     heightCm: 183,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/FC_Salzburg_gegen_Inter_Mailand_%28Testspiel_2023-08-09%29_69.jpg/330px-FC_Salzburg_gegen_Inter_Mailand_%28Testspiel_2023-08-09%29_69.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 540,
@@ -1778,6 +1817,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Germany',
     age: 23,
     heightCm: 177,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Florian_Wirtz_Ecuador_v_Germany_25_June_2026-181_%28cropped%29.jpg/330px-Florian_Wirtz_Ecuador_v_Germany_25_June_2026-181_%28cropped%29.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 512,
@@ -1823,6 +1863,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Sweden',
     age: 28,
     heightCm: 187,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Viktor_Gyokeres_France_v_Sweden_6.30.26-123_%28cropped%29.jpg/330px-Viktor_Gyokeres_France_v_Sweden_6.30.26-123_%28cropped%29.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 540,
@@ -1868,6 +1909,7 @@ export const PLAYERS: Player[] = [
     nationality: 'England',
     age: 24,
     heightCm: 189,
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Cole_Palmer_2025_FIFA_Club_World_Cup_Final.jpg/330px-Cole_Palmer_2025_FIFA_Club_World_Cup_Final.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 510,
@@ -1913,6 +1955,7 @@ export const PLAYERS: Player[] = [
     nationality: 'France',
     age: 24,
     heightCm: 182,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 480,
@@ -1956,6 +1999,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Italy',
     age: 27,
     heightCm: 196,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Norway_Italy_-_June_2025_A_17_%28Gianluigi_Donnarumma%29.jpg/330px-Norway_Italy_-_June_2025_A_17_%28Gianluigi_Donnarumma%29.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 540,
@@ -2003,6 +2047,7 @@ export const PLAYERS: Player[] = [
     nationality: 'France',
     age: 35,
     heightCm: 176,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/FRA-ARG_%2810%29_%28cropped%29.jpg/330px-FRA-ARG_%2810%29_%28cropped%29.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 490,
@@ -2047,6 +2092,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Slovenia',
     age: 33,
     heightCm: 188,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Jan_Oblak_2019.jpg/330px-Jan_Oblak_2019.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 540,
@@ -2094,6 +2140,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Germany',
     age: 30,
     heightCm: 185,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/2019-06-11_Fu%C3%9Fball%2C_M%C3%A4nner%2C_L%C3%A4nderspiel%2C_Deutschland-Estland_StP_2066_LR10_by_Stepro.jpg/330px-2019-06-11_Fu%C3%9Fball%2C_M%C3%A4nner%2C_L%C3%A4nderspiel%2C_Deutschland-Estland_StP_2066_LR10_by_Stepro.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 490,
@@ -2138,6 +2185,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Switzerland',
     age: 28,
     heightCm: 195,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/2023-08-12_TSV_Schott_Mainz_gegen_Borussia_Dortmund_%28DFB-Pokal_2023-24%29_by_Sandro_Halank%E2%80%93090.jpg/330px-2023-08-12_TSV_Schott_Mainz_gegen_Borussia_Dortmund_%28DFB-Pokal_2023-24%29_by_Sandro_Halank%E2%80%93090.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 540,
@@ -2185,6 +2233,7 @@ export const PLAYERS: Player[] = [
     nationality: 'England',
     age: 30,
     heightCm: 180,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Ollie_Watkins_England_v_Ghana_23_June_2026-035.jpg/330px-Ollie_Watkins_England_v_Ghana_23_June_2026-035.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 495,
@@ -2227,6 +2276,7 @@ export const PLAYERS: Player[] = [
     nationality: 'Argentina',
     age: 34,
     heightCm: 195,
+    photoUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Emiliano_Martinez_Argentina_v_Spain_19_July_2026-269.jpg/330px-Emiliano_Martinez_Argentina_v_Spain_19_July_2026-269.jpg',
     seasonStats: {
       appearances: 6,
       minutesPlayed: 540,
