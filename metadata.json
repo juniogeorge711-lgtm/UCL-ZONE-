@@ -1,0 +1,8 @@
+{
+  "name": "UCL ZONE",
+  "description": "Premium UEFA Champions League fan hub and football analytics dashboard featuring fixtures, live-style match centre, 36-team standings, club & player performance metrics, and advanced data visualizations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
